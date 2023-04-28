@@ -1,0 +1,441 @@
+@import url('https://fonts.googleapis.com/css2?family=Merienda:wght@900&display=swap');
+:root {
+    --primary: crimson;
+    --dark: #1F2937;
+    --darkdark:#111827;
+    --light:#f3f4f6;
+
+}
+*{
+    box-sizing: border-box;
+    margin: 0;
+    font-family: 'fira sans', sans-serif;
+    -webkit-tap-highlight-color: rgba(0, 0, 0, 0) !important;
+
+}
+.bodyp1 {
+    background: url(./image/t2.jpg);
+    background-repeat: repeat;
+    background-size: 35% 35%;
+    animation: gradient 70s ease infinite;
+  }
+  
+  @keyframes gradient {
+    0% {
+      background-position: 0% 50%;
+    }
+    50% {
+      background-position: 100% 50%;
+    }
+    100% {
+      background-position: 0% 50%;
+    }
+  }
+
+  .bodyp2 {
+    background: url(./image/img8.jpg);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+  }
+
+.container{
+    text-align: center;
+    background:  rgba(99, 217, 247, 0.788) !important;
+    width: 100%;
+    max-width: 1000px;
+    margin: 3rem auto;
+    padding: 5rem ;
+    border-radius: 20px;
+    color: rgb(3, 7, 85);
+
+}
+.container2{
+    text-align: center;
+    background:  rgba(163, 192, 255, 0.788) !important;
+    width: 100%;
+    max-width: 1000px;
+    margin: 3rem auto;
+    padding: 5rem ;
+    border-radius: 20px;
+    color: rgb(3, 7, 85);
+
+}
+.img1{
+    border: solid rgb(1, 13, 71);
+    border-radius: 20px;
+    max-width: 20vw;
+    float: left; 
+    margin: 25 25px 0 0;
+}
+.img2{
+    border: solid rgb(1, 13, 71);
+    border-radius: 20px;
+    max-width: 28vw;
+    float: right; 
+    margin: 25 -5px 0 15;
+}
+.img3{
+    border: solid rgb(1, 13, 71);
+    border-radius: 20px;
+    max-width: 18vw;
+    float: left; 
+    margin: 25 25px 0 0;
+}
+h1{
+    font-size: 3em;
+}
+h3{
+    font-size: 1em;
+padding-bottom: 30px;
+color: rgb(2, 105, 66);
+}
+.head3{
+    font-size: 1.5em;
+    padding-bottom: 30px;
+    color: rgb(252, 12, 40); 
+}
+
+p{
+    font-size: 1.2em;
+    text-align: justify;
+}
+.controls button{
+    appearance: none;
+    background: none;
+    border: none;
+    outline: none;
+    user-select: none;
+    cursor: pointer;
+    color: var(--light);
+    background-color: var(--primary);
+    margin:  0 0.5rem;
+    padding: 1rem 2rem;
+    border-radius: 0.7rem;
+    transition: 0.4s;
+}
+
+.txt{
+    font-size: 20px;
+}
+
+.soph1{
+    
+    text-align: center;
+    color: #ffe0e0;
+    text-shadow: rgb(134, 0, 0) 10px 0 10px;
+    position: absolute;
+    top: 25%;
+    left: 25%;
+    font-size: 6em;
+    font-family: 'Merienda', cursive;
+}
+.container3 {
+    left: 33%;
+    height: 75%;
+    position: relative;
+  }
+  
+  .vertical-center {
+    margin: 0;
+    position: absolute;
+    top: 80%;
+    -ms-transform: translateY(-50%);
+    transform: translateY(-50%);
+  }
+ .btn1{
+    font-family: 'Merienda', cursive;
+    background-color: #e13841;
+    color: white;
+    padding: 20px 186px;
+    border-radius: 30px;
+    cursor: pointer;
+    width:94%;
+    text-decoration: none;
+    box-shadow: inset 0 0 0 0 #0e0e0e;
+    transition: ease-out 0.3s;
+    outline: none;
+    text-decoration: none;
+    font-size: 1.5em;  
+    color: #ffff;
+    border: 2px solid rgb(134, 0, 0);
+ }
+.btn1:hover{
+    box-shadow: 5px 5px 0px #fff;
+    background-color: rgb(134, 0, 0);
+}
+.btn2{
+    
+    background-color: #e13841;
+    color: white;
+    padding: 20px 200px;
+    border-radius: 30px;
+    cursor: pointer;
+    width:97%;
+    text-decoration: none;
+    box-shadow: inset 0 0 0 0 #0e0e0e;
+    transition: ease-out 0.3s;
+    outline: none;
+    border: 2px solid rgb(134, 0, 0);
+ }
+
+.btn2 {
+    font-family: 'Merienda', cursive;
+    text-decoration: none;
+    font-size: 1.5em; 
+    color: #ffff;
+}
+
+.btn2:hover{
+    box-shadow: 5px 5px 0px #fff;
+    background-color: rgb(134, 0, 0);
+}
+.space{
+padding: 5%;
+}
+footer {
+    display: flex;
+    margin-top: 9.5%;
+    overflow: hidden;
+    /* Hide overflow */
+    /* Dark background color */
+  }
+footer a {
+    float: left;
+    /* Make sure that the links stay side-by-side */
+    display: block;
+    /* Change the display to block, for responsive reasons (see below) */
+    color: white;
+    /* White text color */
+    text-align: center;
+    /* Center the text */
+    padding: 14px 20px;
+    /* Add some padding */
+    text-decoration: none;
+    /* Remove underline */
+  }
+  .copyright {
+    color: #fff;
+    /* to align item to left */
+    margin-left: auto;
+    left: 20%;
+  }
+  .flex-align-center {
+    margin-left: 35%;
+  }
+.indexbody{
+    overflow: hidden;
+}
+@media (max-width: 500px) {
+    .bodyp1 {
+        background-color: rgba(99, 217, 247, 0.788) !important;
+        background: url(./image/t2.jpg);
+        background-repeat: repeat;
+        background-size: 35% 10%;
+        animation: gradient 70s ease infinite;
+        overflow-x: hidden;
+      }
+      
+      @keyframes gradient {
+        0% {
+          background-position: 0% 50%;
+        }
+        50% {
+          background-position: 100% 50%;
+        }
+        100% {
+          background-position: 0% 50%;
+        }
+      }
+    
+      .bodyp2 {
+        background-color:  rgba(163, 192, 255, 0.788) !important;
+        background: url(./image/img8.jpg);
+        background-repeat: no-repeat;
+        background-size: 100% 100%;
+        overflow-x: hidden;
+      }
+    
+    .container{
+        text-align: center;
+        background:  rgba(99, 217, 247, 0.788) !important;
+        width: 100%;
+        max-width: 1000px;
+        margin: 2rem auto;
+        padding: 1rem ;
+        border-radius: 20px;
+        color: rgb(3, 7, 85);
+    
+    }
+    .container2{
+        text-align: center;
+        background:  rgba(163, 192, 255, 0.788) !important;
+        width: 100%;
+        max-width: 1000px;
+        margin: 1rem auto;
+        padding: 1rem ;
+        border-radius: 20px;
+        color: rgb(3, 7, 85);
+    
+    }
+    .img1{
+        border: solid rgb(1, 13, 71);
+        border-radius: 10px;
+        max-width: 50vw; 
+        margin: 25 25px 0 0;
+    }
+    .img2{
+        border: solid rgb(1, 13, 71);
+        border-radius: 10px;
+        max-width: 90vw;
+        margin: 20 0 20 20;
+    }
+    .img3{
+        border: solid rgb(1, 13, 71);
+        border-radius: 20px;
+        max-width: 55vw;
+        float: left; 
+        margin: 25 25px 0 0;
+    }
+    h1{
+        font-size: 3em;
+    }
+    h3{
+        font-size: 1em;
+    padding-bottom: 30px;
+    color: rgb(2, 105, 66);
+    }
+    .head3{
+        font-size: 1.5em;
+        padding-bottom: 30px;
+        color: rgb(252, 12, 40); 
+    }
+    
+    p{
+        font-size: 1.2em;
+        text-align: justify;
+    }
+    .controls button{
+        appearance: none;
+        background: none;
+        border: none;
+        outline: none;
+        user-select: none;
+        cursor: pointer;
+        color: var(--light);
+        background-color: var(--primary);
+        margin:  0 0.5rem;
+        padding: 1rem 2rem;
+        border-radius: 0.7rem;
+        transition: 0.4s;
+    }
+    
+    .txt{
+        font-size: 20px;
+    }
+    
+    .soph1{
+        
+        text-align: center;
+        color: #ffe0e0;
+        text-shadow: rgb(134, 0, 0) 10px 0 10px;
+        position: absolute;
+        top: 15%;
+        left: 10%;
+        right: 10%;
+        font-size: 5em;
+        font-family: 'Merienda', cursive;
+    }
+    .container3 {
+        left: 27%;
+        height: 85%;
+        position: relative;
+      }
+      
+      .vertical-center {
+        margin: 0;
+        position: absolute;
+        top: 80%;
+        -ms-transform: translateY(-50%);
+        transform: translateY(-50%);
+      }
+     .btn1{
+        font-family: 'Merienda', cursive;
+        background-color: #e13841;
+        color: white;
+        padding: 15px 25px;
+        border-radius: 30px;
+        cursor: pointer;
+        width:100%;
+        text-decoration: none;
+        box-shadow: inset 0 0 0 0 #0e0e0e;
+        transition: ease-out 0.3s;
+        outline: none;
+        text-decoration: none;
+        font-size: 1.5em;  
+        color: #ffff;
+        border: 2px solid rgb(134, 0, 0);
+     }
+    .btn1:hover{
+        box-shadow: 5px 5px 0px #fff;
+        background-color: rgb(134, 0, 0);
+    }
+    .btn2{
+        
+        background-color: #e13841;
+        color: white;
+        padding: 15px 37px;
+        border-radius: 30px;
+        cursor: pointer;
+        width:100%;
+        text-decoration: none;
+        box-shadow: inset 0 0 0 0 #0e0e0e;
+        transition: ease-out 0.3s;
+        outline: none;
+        border: 2px solid rgb(134, 0, 0);
+     }
+    
+    .btn2 {
+        font-family: 'Merienda', cursive;
+        text-decoration: none;
+        font-size: 1.5em; 
+        color: #ffff;
+    }
+    
+    .btn2:hover{
+        box-shadow: 5px 5px 0px #fff;
+        background-color: rgb(134, 0, 0);
+    }
+    .space{
+    padding: 5%;
+    }
+    footer {
+        display: flex;
+        margin-top: 20%;
+        overflow: hidden;
+        /* Hide overflow */
+        /* Dark background color */
+      }
+    footer a {
+        float: left;
+        /* Make sure that the links stay side-by-side */
+        display: block;
+        /* Change the display to block, for responsive reasons (see below) */
+        color: white;
+        /* White text color */
+        text-align: center;
+        /* Center the text */
+        padding: 14px 20px;
+        /* Add some padding */
+        text-decoration: none;
+        /* Remove underline */
+      }
+      .copyright {
+        color: #fff;
+        /* to align item to left */
+        margin-left: auto;
+        left: 20%;
+      }
+      .flex-align-center {
+        margin-left: 19%;
+      }
+}
