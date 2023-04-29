@@ -410,8 +410,9 @@ footer a {
     }
     footer {
         display: flex;
-        margin-top: 20%;
+        margin-top: 9%;
         overflow: hidden;
+        margin-left: 23%;
         /* Hide overflow */
         /* Dark background color */
       }
@@ -429,13 +430,4 @@ footer a {
         text-decoration: none;
         /* Remove underline */
       }
-      .copyright {
-        color: #fff;
-        /* to align item to left */
-        margin-left: auto;
-        left: 20%;
-      }
-      .flex-align-center {
-        margin-left: 19%;
-      }
-}
+    }
